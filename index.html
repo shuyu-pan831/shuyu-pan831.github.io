@@ -114,9 +114,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-world" id="toc-hello-world" class="nav-link active" data-scroll-target="#hello-world">Hello, World!</a></li>
-  <li><a href="#main-title" id="toc-main-title" class="nav-link" data-scroll-target="#main-title">Main Title</a>
+  <li><a href="#hello-world" id="toc-hello-world" class="nav-link active" data-scroll-target="#hello-world">Hello, World!</a>
   <ul class="collapse">
+  <li><a href="#main-title" id="toc-main-title" class="nav-link" data-scroll-target="#main-title">Main Title</a></li>
   <li><a href="#section-title" id="toc-section-title" class="nav-link" data-scroll-target="#section-title">Section Title</a>
   <ul class="collapse">
   <li><a href="#subsection-title" id="toc-subsection-title" class="nav-link" data-scroll-target="#subsection-title">Subsection Title</a></li>
@@ -162,22 +162,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="hello-world" class="level1">
 <h1>Hello, World!</h1>
 <p>Welcome to my Quarto website.</p>
-</section>
-<section id="main-title" class="level1">
-<h1>Main Title</h1>
+<section id="main-title" class="level2">
+<h2 class="anchored" data-anchor-id="main-title">Main Title</h2>
 <ul>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Sub-item 1</li>
-<li>Sub-item 2</li>
+<li><strong>Item 1</strong><br>
+</li>
+<li><strong>Item 2</strong>
+<ul>
+<li><em>Sub-item 1</em><br>
+</li>
+<li><em>Sub-item 2</em></li>
+</ul></li>
 </ul>
+</section>
 <section id="section-title" class="level2">
 <h2 class="anchored" data-anchor-id="section-title">Section Title</h2>
 <section id="subsection-title" class="level3">
 <h3 class="anchored" data-anchor-id="subsection-title">Subsection Title</h3>
 <p><a href="https://github.com">GitHub</a></p>
 <p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>To learn more about Quarto websites, visit:<br>
+<a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
 
 
 </section>
