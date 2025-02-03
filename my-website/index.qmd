@@ -7,20 +7,22 @@ format:
     theme: journal
     toc: true
 ---
+
 # Hello, World!  
 Welcome to my Quarto website.
 
-# Main Title
-  - Item 1
-  - Item 2
-  - Sub-item 1
-  - Sub-item 2
+## Main Title  
+- **Item 1**  
+- **Item 2**  
+  - *Sub-item 1*  
+  - *Sub-item 2*  
 
-## Section Title
+## Section Title  
+### Subsection Title  
 
-### Subsection Title
-[GitHub](https://github.com) 
+[GitHub](https://github.com)
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+To learn more about Quarto websites, visit:  
+<https://quarto.org/docs/websites>.
