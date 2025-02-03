@@ -18,7 +18,6 @@ Welcome to my Quarto website.
   - *Sub-item 2*  
 
 ## Section Title  
-### Subsection Title  
 
 [GitHub](https://github.com)
 
