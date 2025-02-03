@@ -11,6 +11,13 @@
     "href": "index.html",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "Hello, World!\nWelcome to my Quarto website.\n\n\nMain Title\n\nItem 1\nItem 2\n\nSub-item 1\nSub-item 2 ## Section Title ### Subsection Title GitHub\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to my Quarto website."
+  },
+  {
+    "objectID": "index.html#section-title",
+    "href": "index.html#section-title",
+    "title": "Welcome to My Website",
+    "section": "Section Title",
+    "text": "Section Title\n\nSubsection Title\nGitHub\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

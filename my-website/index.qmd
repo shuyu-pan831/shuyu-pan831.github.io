@@ -9,12 +9,15 @@ format:
 ---
 # Hello, World!  
 Welcome to my Quarto website.
+
 # Main Title
-- Item 1
-- Item 2
+  - Item 1
+  - Item 2
   - Sub-item 1
   - Sub-item 2
+
 ## Section Title
+
 ### Subsection Title
 [GitHub](https://github.com) 
 
